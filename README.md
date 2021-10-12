@@ -102,3 +102,21 @@ terjadi error, atau array sebagai berikut jika berhasil:
 ```
 
 ### lastError(): ?string
+
+## Konfigurasi
+
+Setelah selesai membuat library handler untuk kurir, pastikan mendaftarkan library
+tersebut sebagai handler untuk suatu kurir sebagai berikut:
+
+```php
+<?php
+
+return [
+    'libCourier' => [
+        'handlers' => [
+            'courier-code' => 'Class\\Handler',
+            'jne' => 'LibCourierRajaOngkir\\Library\\Handler'
+        ]
+    ]
+];
+```

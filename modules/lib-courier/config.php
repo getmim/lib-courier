@@ -29,5 +29,8 @@ return [
             ]
         ],
         'files' => []
+    ],
+    'libCourier' => [
+        'handlers' => []
     ]
 ];
