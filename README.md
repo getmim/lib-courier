@@ -80,6 +80,8 @@ terjadi error, atau array sebagai berikut jika berhasil:
     // 2 receiped from sender
     // 3 on the way
     // 4 delivered
+    // 5 on return way
+    // 6 returned
     'status' => ::int,
     'tracks' => [
         [
